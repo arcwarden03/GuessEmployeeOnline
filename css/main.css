@@ -1,0 +1,53 @@
+#containerx {
+	height: 100%;
+		background-color: red;
+}
+body > #containerx {
+	height: auto;
+	min-height: 100%;
+}
+ 
+
+
+#xheader {
+	height: 56px;
+	padding: 0px 30px;
+	background: url('../image/header.png') repeat-x;
+	min-width: 900px;
+}
+#xheader .div1 {
+	color: #FFFFFF;
+	padding: 18px 0px 0px 0px;
+	float: left;
+	font-size:18px;
+}
+#xheader .div2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-align: right;
+	padding: 14px 0px 0px 0px;
+	float: right;
+}
+#xheader .div2 span {
+	font-weight: bold;
+}
+#menu {
+	background: url('../image/menu.png') repeat-x;
+	position: relative;
+	z-index: 1;
+	height: 34px;
+	clear: both;
+	padding: 0px 30px;
+	min-width: 900px;
+}
+
+#menux{
+	background: url('../image/menu.png') repeat-x;
+	position: relative;
+	z-index: 1;
+	height: 34px;
+	clear: both;
+	padding: 0px 30px;
+	min-width: 900px;
+}
